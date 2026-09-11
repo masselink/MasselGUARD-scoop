@@ -1,0 +1,21 @@
+name: Excavator
+
+on:
+  schedule:
+    - cron: '0 6 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  excavate:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Update manifests
+        uses: ScoopInstaller/GithubActions@v3.0.0
+        with:
+          skip_updated: '1'
