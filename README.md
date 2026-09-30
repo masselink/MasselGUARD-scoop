@@ -11,8 +11,8 @@ scoop install masselguard
 
 This installs both executables:
 
-- **`MasselGUARD.exe`** — the GUI (also added to the Start menu as *MasselGUARD*).
-- **`MasselGUARDcli.exe`** — the CLI, shimmed onto your `PATH` as `masselguard` so you can drive tunnels from a terminal.
+- **`MasselGUARD.exe`** — the GUI, shimmed onto your `PATH` as `masselguard` (also added to the Start menu as *MasselGUARD*).
+- **`MasselGUARDcli.exe`** — the CLI, shimmed onto your `PATH` as `masselguardcli` so you can drive tunnels from a terminal.
 
 Both x64 and ARM64 Windows are supported; Scoop picks the matching build automatically.
 
@@ -53,4 +53,4 @@ To bump manually against a specific installed Scoop checkout:
 
 ## Credits
 
-This bucket builds on the manifest originally contributed by **[@qoreQyaS](https://github.com/qoreQyaS)** ([sven-scoop](https://github.com/qoreQyaS/sven-scoop)), offered in [issue #49](https://github.com/masselink/MasselGUARD/issues/49). Thanks, Sven! The official bucket extends it with ARM64 support, a CLI `PATH` shim, and automated updates.
+This bucket builds on the manifest originally contributed by **[@qoreQyaS](https://github.com/qoreQyaS)** ([sven-scoop](https://github.com/qoreQyaS/sven-scoop)), offered in [issue #49](https://github.com/masselink/MasselGUARD/issues/49). Thanks, Sven! The official bucket extends it with ARM64 support, GUI + CLI `PATH` shims, and automated updates.

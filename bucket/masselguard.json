@@ -13,7 +13,7 @@
       "hash": "2e17e021e128f292516e172d55acf16139e571e6406dca3698dcb9459dd60bdb"
     }
   },
-  "bin": "MasselGUARDcli.exe",
+  "bin": ["MasselGUARD.exe", "MasselGUARDcli.exe"],
   "shortcuts": [
     ["MasselGUARD.exe", "MasselGUARD"]
   ],
